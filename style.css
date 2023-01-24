@@ -85,10 +85,22 @@ main {
     width: 80%;
     margin: 0 auto;
     padding: 2em;
+    text-align: center;
+}
+
+h2, h3, h4{
+    padding: 1rem 0rem 2rem 0rem;
+}
+
+.p-container {
+    display: flex;
 }
 
 /* Servicios */
 .servicios {
+    background-image: url(./images/measuringtape.jpeg);
+}
+.servicios-container {
     width: 80%;
     margin: 0 auto;
     padding: 2em;
@@ -96,11 +108,17 @@ main {
 
 /* One Hour */
 .one-hour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 80%;
     margin: 0 auto;
     padding: 2em;
 }
-
+.one-hour-p-container {
+    display: flex;
+    flex-direction: column;
+}
 /* Clientes */
 .clientes {
     width: 80%;
@@ -139,3 +157,17 @@ footer {
     }
 }
 */
+
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .p-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
