@@ -11,20 +11,30 @@
   <body>
     <main class="header">
       <nav class="navbar">
-        <ul>
-          <li><a class="nav-item" href="">Home</a></li>
-          <li><a class="nav-item" href="">Sobre Nosotros</a></li>
-          <li><a class="nav-item" href="">Servicios</a></li>
-          <li>
-            <a class="nav-item" href=""
-              ><img class="logo" alt="logo" src="./images/logo.png"
-            /></a>
-          </li>
-          <li><a class="nav-item" href="">Trabajos</a></li>
-          <li><a class="nav-item" href="">Contacto</a></li>
-          <li><a class="nav-item" href="">Ofertas</a></li>
-        </ul>
+        <img class="brand-title" src="./images/logo.png" alt="brand logo"/>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Trabajos</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Servicios</a></li>
+
+          </ul>
+
+        </div>
       </nav>
+
+       
+
+
 
       <div class="container">
         <!--Icons-->
@@ -61,13 +71,15 @@
       </div>
     </main>
 
+    <div class="page-container">
     <div class="nosotros">
       <h2>
-        Ahora que estás en nuestra web aprovecha y llámanos tocando aquí
+        Ahora que estás en nuestra web aprovecha <br> y llámanos tocando aquí
         <a class="phone-number" href="tel:123-456-7890">910 01 44 31</a>
       </h2>
       <h3>Estamos en Madrid</h3>
       <h4>SOMOS UNA BOUTIQUE DE ARREGLOS DE ROPA</h4>
+      <hr class="line-one">
       <div class="p-container">
         <p>
           Nacimos con un objetivo muy claro y es conseguir que tu ropa luzca
@@ -109,8 +121,9 @@
     </div>
   </div>
 
+<div class="one-hour-container">
     <div class="one-hour">
-      <img class="1hour-imag" alt="logo 1 hour" src="./images/1hora.png" />
+      <img class="hour-img" alt="logo 1 hour" src="./images/1hora.png" />
       <div class="one-hour-p-container">
         <p>
           Si tienes alguna urgencia, no dudes en ponerte en contacto con
@@ -126,24 +139,27 @@
         </p>
       </div>
     </div>
-
+  </div>
     <div class="clientes">
       <h6>CLIENTES MARAVILLOS</h6>
       <iframe
-        width="420"
-        height="315"
-        src="https://www.youtube.com/watch?v=I6nbrHeiqz8&feature=emb_imp_woyt"
-      >
+        width="520"
+        height="415"
+        src="https://www.youtube.com/embed/I6nbrHeiqz8">
       </iframe>
-      <p>Nuestra mejor carta de presentación</p>
-      <p>Clientes que confiaron en nosotros y que ahora disfrutan regresando</p>
 
-      <div class="testimonials">
-        <p>ADD TESTIMONIALS HERE</p>
-      </div>
+      <p class="nuestra-cursive">Nuestra mejor carta de presentación</p>
+      <p class="nuestra-roboto">Clientes que confiaron en nosotros y que ahora disfrutan regresando</p>
+
     </div>
+  </div> <!--div for page-container -->
 
+  <!--Testimonials-->
+  <div class="testimonials">
+    <p>ADD TESTIMONIALS HERE</p>
+  </div>
 
+  <!--Footer-->
     <footer>
       <div class="footer-info">
         <p>¡Ven a conocernos!</p>
