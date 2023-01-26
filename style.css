@@ -14,7 +14,6 @@ body,
   align-items: center;
   background-color: rgb(255, 218, 0);
   font-family: "Josefin Sans", sans-serif;
-  position: fixed;
 }
 .brand-title {
   width: 12%;
@@ -104,7 +103,7 @@ text-align: centers;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   color: white;
-  font-size: 4rem;
+  font-size: 4vw;
 }
 .saber-button{
     background-color: rgb(255, 218, 0);
@@ -123,7 +122,7 @@ text-align: centers;
   gap: 1rem;
 }
 .icon-svg {
-  height: 1rem;
+  height: 5vw;
 }
 
 /* Nosotros */
@@ -148,7 +147,7 @@ h3 {
 h4 {
   font-family: "Roboto", sans-serif;
   color: rgb(255, 218, 0);
-  font-size: 4rem;
+  font-size: 4vw;
   padding: 1rem 0rem 3rem 0rem;
 }
 .line-one {
@@ -186,7 +185,7 @@ h4 {
 /* Servicios */
 .servicios {
   background-image: url(./images/measuringtape.jpeg);
-  height: 100vh;
+  min-height: 100vh;
   background-attachment: fixed;
 }
 .servicios-container {
@@ -210,7 +209,7 @@ h4 {
 h5 {
   font-family: "Roboto", sans-serif;
   color: rgb(255, 218, 0);
-  font-size: 3rem;
+  font-size: 5vw;
   text-align: center;
   padding: 2rem;
 }
@@ -222,6 +221,7 @@ h5 {
 .servicios-icons {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 svg,
 #scissors {
@@ -295,7 +295,7 @@ h6 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   color: rgb(255, 218, 0);
-  font-size: 3rem;
+  font-size: 4vw;
   padding: 2rem;
   letter-spacing: 1px;
 }
@@ -331,6 +331,9 @@ footer {
   width: 100%;
   margin: 0 auto;
   padding: 2em 0rem;
+  background-image: url(./images/seamstress.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 .footer-info {
   display: flex;
@@ -338,7 +341,6 @@ footer {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  background-color: black;
   padding: 2rem 0rem;
 }
 .p-cursive {
@@ -357,11 +359,14 @@ footer {
 .p-roboto,
 .phone-number {
   font-family: "Roboto", sans-serif;
-  font-size: 2rem;
+  font-size: 2vh;
   font-weight: 600;
 }
 .p-roboto {
   color: rgb(255, 218, 0);
+  text-align: center;
+  padding: 2rem 0rem;
+
 }
 .phone-number {
   color: white;
@@ -372,6 +377,22 @@ iframe {
   margin: 0 auto;
 }
 
+.address-and-form{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 50vh;
+  font-family: "Montserrat", sans-serif;
+}
+.address{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.phone-number3{
+  text-decoration: none;
+  color: white;
+}
 /*
 @keyframes change {
     0% {
@@ -437,5 +458,11 @@ iframe {
   .one-hour {
     display: flex;
     flex-direction: column;
+  }
+  .address-and-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
 }
