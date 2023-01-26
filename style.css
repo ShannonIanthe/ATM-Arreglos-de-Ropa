@@ -43,7 +43,7 @@ body,
 }
 
 .navbar-links a:hover {
-  /* underline */
+  text-decoration: underline;
 }
 
 .toggle-button {
@@ -244,8 +244,10 @@ svg,
   color: black;
   font-size: 15px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .pdf-doc:hover {
+  text-decoration: underline;
 }
 
 /* One Hour */
