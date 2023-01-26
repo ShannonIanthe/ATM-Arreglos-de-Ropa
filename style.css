@@ -374,8 +374,8 @@ footer {
   color: white;
 }
 
-iframe {
-  width: 100%;
+.googlemap {
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -394,6 +394,12 @@ iframe {
 .phone-number3{
   text-decoration: none;
   color: white;
+}
+form input{
+  font-family: "Montserrat", sans-serif;
+}
+textarea{
+  font-family: "Montserrat", sans-serif;
 }
 /*
 @keyframes change {
@@ -463,6 +469,10 @@ iframe {
   }
   .one-hour-p-container{
     text-align: center;
+  }
+  .googlemap {
+    width: 100%;
+    margin: 0 auto;
   }
   .address-and-form{
     display: flex;
