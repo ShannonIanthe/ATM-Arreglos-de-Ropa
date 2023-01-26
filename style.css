@@ -103,7 +103,7 @@ text-align: centers;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   color: white;
-  font-size: 4vw;
+  font-size: 6vw;
 }
 .saber-button{
     background-color: rgb(255, 218, 0);
@@ -459,10 +459,14 @@ iframe {
     display: flex;
     flex-direction: column;
   }
+  .one-hour-p-container{
+    text-align: center;
+  }
   .address-and-form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1.2rem;
   }
 }
