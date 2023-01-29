@@ -103,7 +103,7 @@ text-align: centers;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   color: white;
-  font-size: 6vw;
+  font-size : clamp(2rem, 10vw, 4rem);
 }
 .saber-button{
     background-color: rgb(255, 218, 0);
@@ -136,18 +136,18 @@ text-align: centers;
 h2 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 2vw;
+  font-size : clamp(0.5rem, 7vw, 1.3rem);
   font-weight: 500;
   padding: 0.7rem 0rem 7rem 0rem;
 }
 h3 {
   font-family: "Solitreo", cursive;
-  font-size: 2vw;
+  font-size : clamp(0.5rem, 7vw, 1.3rem);
 }
 h4 {
   font-family: "Roboto", sans-serif;
   color: rgb(255, 218, 0);
-  font-size: 4vw;
+  font-size : clamp(2rem, 10vw, 4rem);
   padding: 1rem 0rem 3rem 0rem;
 }
 .line-one {
@@ -198,18 +198,20 @@ h4 {
   color: white;
   text-align: center;
   padding-top: 2rem;
+  font-size : clamp(.4rem, 10vw, 1.6rem);
+
 }
 .p-mont {
   font-family: "Montserrat", sans-serif;
   color: white;
   text-align: center;
   padding: 2rem;
-  font-size: 1.4vw;
+  font-size : clamp(.4rem, 10vw, 1.6rem);
 }
 h5 {
   font-family: "Roboto", sans-serif;
   color: rgb(255, 218, 0);
-  font-size: 5vw;
+  font-size : clamp(2rem, 10vw, 4rem);
   text-align: center;
   padding: 2rem;
 }
@@ -297,7 +299,7 @@ h6 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   color: rgb(255, 218, 0);
-  font-size: 4vw;
+  font-size : clamp(2rem, 10vw, 4rem);
   padding: 2rem;
   letter-spacing: 1px;
 }
@@ -318,13 +320,13 @@ iframe {
   font-family: "Solitreo", cursive;
   padding: 3rem 0rem 1rem 0rem;
   text-align: center;
-  font-size: 2vw;
+  font-size : clamp(.4rem, 10vw, 1.3rem);
 }
 .nuestra-roboto {
   font-family: "Montserrat", sans-serif;
   padding: 0.3rem 0rem 2rem 0rem;
   text-align: center;
-  font-size: 1.6vw;
+  font-size : clamp(.4rem, 10vw, 1.3rem);
   font-weight: 00;
 }
 
@@ -349,25 +351,28 @@ footer {
   font-family: "Solitreo", cursive;
   color: grey;
   padding: 3rem 0rem 0rem 0rem;
-  font-size: 2vw;
+  font-size : clamp(.4rem, 10vw, 1.6rem);
 }
 .p-mont2 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   padding: 2rem 0rem;
-  font-size: 1vw;
+  font-size : clamp(.4rem, 10vw, 1.1rem);
   color: white;
 }
 .p-roboto,
 .phone-number {
   font-family: "Roboto", sans-serif;
-  font-size: 2vw;
+  font-size : clamp(1rem, 10vw, 1.6rem);
   font-weight: 600;
 }
-.p-roboto {
+.p-roboto2 {
   color: rgb(255, 218, 0);
+  font-family: "Roboto", sans-serif;
   text-align: center;
+  font-weight: 600;
   padding: 2rem 0rem;
+  font-size : clamp(.7rem, 10vw, 3rem);
 
 }
 .phone-number {
