@@ -13,11 +13,11 @@ const navBar = () => {
         <div class="navbar-links">
           <ul>
             <li><a href="./">Home</a></li>
-            <li><a href="#">Sobre Nosotros</a></li>
-            <li><a href="#">Servicios</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
         <!--    <li><a href="./"><img class="brand-title" alt="brand logo" src="./images/logo.png"/></a></li>-->
             <li><a href="#">Trabajos</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#contacto">Contacto</a></li>
             <li><a href="./ofertas.html">Ofertas</a></li>
 
           </ul>
