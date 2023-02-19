@@ -335,7 +335,7 @@ iframe {
 footer {
   width: 100%;
   margin: 0 auto;
-  padding: 2em 0rem;
+  padding: 2rem 0rem;
   background-image: url(./images/seamstress.jpeg);
   background-attachment: fixed;
   background-size: cover;
@@ -387,9 +387,9 @@ footer {
 
 .address-and-form{
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  min-height: 50vh;
+  padding: 2rem 0rem 0rem 0rem;
+  min-height: 30vh;
   font-family: "Montserrat", sans-serif;
 }
 .address{
@@ -406,6 +406,9 @@ form input{
 }
 textarea{
   font-family: "Montserrat", sans-serif;
+}
+.firstname-lastname{
+  width: 100%;
 }
 
 
