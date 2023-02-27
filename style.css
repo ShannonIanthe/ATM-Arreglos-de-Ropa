@@ -9,12 +9,24 @@ body,
 
 /* Navbar */
 nav{
+  display: fixed;
+  font-family: "Montserrat", sans-serif;
   background-color: rgb(255, 218, 0);
+  font-weight: 700;
 }
-.nav-img{
-  height: 100%;
-  width: 5rem;
+.navbar-brand img {
+  width: 14rem;
+  padding: 0rem 2rem;
 }
+.navbar-nav {
+  align-items: center;
+}
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+}
+
 
 
 /* Header */
@@ -91,7 +103,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size : clamp(0.5rem, 7vw, 1.3rem);
   font-weight: 500;
-  padding: 0.7rem 0rem 7rem 0rem;
+  padding: 0.7rem 0rem 6rem 0rem;
 }
 h3 {
   font-family: 'Alex Brush', cursive;
@@ -99,9 +111,10 @@ h3 {
 }
 h4 {
   font-family: "Roboto", sans-serif;
-  color: rgb(255, 218, 0);
-  font-size : clamp(2rem, 10vw, 4rem);
+  color: rgb(255, 218, 0) !important;
+  font-size : clamp(2rem, 6vw, 4rem) !important;
   padding: 1rem 0rem 3rem 0rem;
+  font-weight: 800 !important;
 }
 .line-one {
   width: 30%;
@@ -138,13 +151,19 @@ h4 {
 /* Servicios */
 .servicios {
   background-image: url(./images/measuringtape.jpeg);
-  min-height: 100vh;
+  min-height: 90vh;
   background-attachment: fixed;
+  display: flex;
+  align-items: center;
 }
 .servicios-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 80%;
   margin: 0 auto;
-  padding: 2em;
+  color: white;
 }
 .p-cursive2 {
   font-family: 'Alex Brush', cursive;
@@ -161,12 +180,14 @@ h4 {
   padding: 2rem;
   font-size : clamp(.4rem, 10vw, 1.6rem);
 }
-h5 {
-  font-family: "Roboto", sans-serif;
+.nuestros-servicios-h5 {
   color: rgb(255, 218, 0);
-  font-size : clamp(2rem, 10vw, 4rem);
+  font-family: "Roboto", sans-serif;
   text-align: center;
-  padding: 2rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  padding: 2rem 0rem;
+  font-size : clamp(.7rem, 10vw, 4rem);
 }
 .line-two {
   width: 30%;
@@ -196,10 +217,11 @@ svg,
   text-decoration: none;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
   font-size: 15px;
   cursor: pointer;
+  border-radius: 5px;
 }
 .pdf-doc:hover {
   text-decoration: underline;
@@ -312,6 +334,9 @@ footer {
   padding: 2rem 0rem;
   font-size : clamp(.4rem, 10vw, 1.1rem);
   color: white;
+}
+.p-roboto{
+  padding-top: 4rem;
 }
 .p-roboto,
 .phone-number {
