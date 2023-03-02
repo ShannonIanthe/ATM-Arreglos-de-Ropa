@@ -194,15 +194,34 @@ h4 {
   margin: auto;
   color: gray;
 }
-.servicios-icons {
+.servicios-icons1,
+.servicios-icons2 {
+  width: 100%;
+  padding: 1em;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
+  justify-content: space-around;
 }
+.cell{
+  width: 100%;
+  color: grey;
+  margin: 0 .5em;
+  padding: .5em;
+  /* optional */
+  min-height: 100%;
+}
+.servicios-icons1,
+.servicios-icons2 p{
+  text-align: center;
+}
+
+
+
 svg,
 #scissors {
-  width: 10%;
+  width: 35%;
   fill: white;
+  text-align: center;
 }
 
 .servicios-button {
