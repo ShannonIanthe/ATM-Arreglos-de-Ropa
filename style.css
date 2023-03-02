@@ -151,7 +151,7 @@ h4 {
 /* Servicios */
 .servicios {
   background-image: url(./images/measuringtape.jpeg);
-  min-height: 90vh;
+  min-height: 120vh;
   background-attachment: fixed;
   display: flex;
   align-items: center;
@@ -356,12 +356,13 @@ footer {
 }
 .p-roboto{
   padding-top: 4rem;
+  letter-spacing: .2px;
 }
 .p-roboto,
 .phone-number {
   font-family: "Roboto", sans-serif;
   font-size : clamp(1rem, 10vw, 1.6rem);
-  font-weight: 600;
+  font-weight: 100;
 }
 .p-roboto2 {
   color: rgb(255, 218, 0);
@@ -451,7 +452,6 @@ textarea{
   .line-one {
     display: none;
   }
-
   .p-container {
     display: flex;
     flex-direction: column;
@@ -465,6 +465,13 @@ textarea{
   }
   .one-hour-p-container{
     text-align: center;
+  }
+  .servicios-icons1{
+    display: flex;
+    flex-direction: column;
+  }
+  .servicios-icons2{
+    display: none;
   }
   .googlemap {
     width: 100%;
