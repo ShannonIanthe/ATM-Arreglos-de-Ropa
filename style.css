@@ -438,10 +438,14 @@ textarea{
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .navbar-toggler{
-    margin-right: 1rem;
+    margin-right: 1.5rem;
+  }
+  .navbar-brand img {
+    width: 9rem;
+    padding: 0rem .2rem;
   }
   main{
-    margin-top: 6rem;
+    margin-top: 5rem;
     height: 40vh;
   }
   .line-one {
