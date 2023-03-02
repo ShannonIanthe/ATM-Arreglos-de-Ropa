@@ -16,7 +16,7 @@ nav{
 }
 .navbar-brand img {
   width: 14rem;
-  padding: 0rem 2rem;
+  padding: 0rem .2rem;
 }
 .navbar-nav {
   align-items: center;
@@ -24,7 +24,7 @@ nav{
 .navbar .navbar-nav .nav-link {
   color: #fff;
   font-size: 1.1em;
-  padding: 0.5em 1em;
+  padding: 0.5rem 0rem;
 }
 
 
@@ -437,6 +437,9 @@ textarea{
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+  .navbar-toggler{
+    margin-right: 1rem;
+  }
   main{
     margin-top: 6rem;
     height: 40vh;
