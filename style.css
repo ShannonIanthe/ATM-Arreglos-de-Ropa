@@ -35,13 +35,11 @@ main {
   height: 80vh;
   margin: 0 auto;
   overflow: hidden;
-  position: relative;
   background-image: url(./images/darksuit.jpeg);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  justify-content: center;
   animation: change 20s infinite ease-in-out;
 }
 
@@ -378,7 +376,7 @@ footer {
 }
 
 .googlemap {
-  width: 95%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -400,6 +398,8 @@ footer {
 }
 form input{
   font-family: "Montserrat", sans-serif;
+  padding-bottom: .7rem;
+  margin-bottom: .7rem;
 }
 textarea{
   font-family: "Montserrat", sans-serif;
@@ -407,6 +407,7 @@ textarea{
 .firstname-lastname{
   width: 100%;
 }
+
 
 
 /*
@@ -447,7 +448,7 @@ textarea{
   }
   main{
     margin-top: 5rem;
-    height: 40vh;
+    height: 30vh;
   }
   .line-one {
     display: none;
